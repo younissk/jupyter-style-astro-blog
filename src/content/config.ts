@@ -1,4 +1,5 @@
 import { defineCollection, z } from 'astro:content';
+import { CONTENT_TYPES, CONTENT_TOPICS } from '../consts';
 
 const blog = defineCollection({
 	type: 'content',
@@ -6,7 +7,8 @@ const blog = defineCollection({
 	schema: z.object({
 		title: z.string(),
 		description: z.string(),
-		// Transform string to Date object
+		type: z.enum(CONTENT_TYPES as [string, ...string[]]),
+		topic: z.enum(CONTENT_TOPICS as [string, ...string[]]),
 		pubDate: z.coerce.date(),
 		updatedDate: z.coerce.date().optional(),
 		heroImage: z.string().optional(),
