@@ -21,6 +21,7 @@ You can customise the blog using the `consts.ts` file and the `theme.ts` file.
 ## Showcase
 If you made your own blog with this template, please add the link to your blog here.
 
+- [Template hosted on Netlify](https://jupyter-style-astro-blog.netlify.app/)
 - [100DaysOfAI](https://100daysofai.youniss.dev/)
 
 ## Contributors
