@@ -21,7 +21,7 @@ You can customise the blog using the `consts.ts` file and the `theme.ts` file.
 ## Showcase
 If you made your own blog with this template, please add the link to your blog here.
 
-- [100DaysOfAI]([https://100daysofai.youniss.dev/)
+- [100DaysOfAI](https://100daysofai.youniss.dev/)
 
 ## Contributors
 If you contribute to this project, please add your name here.
