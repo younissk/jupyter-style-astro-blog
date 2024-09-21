@@ -1,11 +1,51 @@
 ---
-import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
-import SiteLayout from '../layouts/SiteLayout.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+import SiteLayout from "../layouts/SiteLayout.astro";
+import "@/styles/global.css";
 ---
 
 <SiteLayout title={SITE_TITLE} description={SITE_DESCRIPTION}>
-	<div class="flex flex-col gap-1 items-center justify-center">
-		<h1>{SITE_TITLE}</h1>
-		<h2>{SITE_DESCRIPTION}</h2>
-	</div>
+  <p>
+    An Astro blog with Jupyters Notebook inspired Styling. Great for Data Science
+    or AI related portfolios or blogs.
+  </p>
+
+  <h3>Features</h3>
+  <ul>
+    <li><a href="/blog/jupyter-styling">Jupyters Notebook inspired Styling</a></li>
+    <li>
+      <a href="/blog/light-and-dark-mode">Light and Dark Mode</a>
+    </li>
+    <li>
+      <a href="/blog/types-and-categories">Types and Categories</a>
+    </li>
+  </ul>
+
+  <br />
+
+  <h3>Future Features</h3>
+  <ul>
+    <li>Filterable Blog Posts</li>
+    <li>Site wide search</li>
+  </ul>
+
+  <br />
+
+  <h3>Showcase</h3>
+  <p>If you made your own blog with this template, please add the link to your blog here.</p>
+  <ul>
+    <li>
+      <a href="https://github.com/younissk">- younissk</a>
+    </li>
+  </ul>
+
+  <br />
+
+  <h3>Contributors</h3>
+  <p>If you contribute to this project, please add your name here.</p>
+  <ul>
+    <li>
+      <a href="https://github.com/younissk">- younissk</a>
+    </li>
+  </ul>
 </SiteLayout>

@@ -1,10 +1,10 @@
 ---
-import { SITE_TITLE, HEADER } from "../consts";
+import { SITE_TITLE, HEADER, THEME } from "../consts";
 ---
 
 <header
-  style={{ backgroundColor: "#212121", top: 0, zIndex: 1000 }}
-  class="text-gray-300 flex flex-col items-center justify-between shadow-lg w-full fixed"
+  style={{ backgroundColor: THEME.colors.contentBackground, top: 0, zIndex: 1000, color: THEME.colors.text }}
+  class="flex flex-col items-center justify-between shadow-lg w-full fixed"
 >
   <section class="mx-auto w-11/12 md:w-1/2 flex flex-col">
     <div class="flex items-center space-x-4 pb-2 justify-between">

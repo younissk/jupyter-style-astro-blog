@@ -1,0 +1,12 @@
+---
+type Props = {
+  text: string;
+  color: string;
+};
+
+const { text, color } = Astro.props;
+---
+
+<span class={`text-xs font-semibold mr-2 px-2.5 py-0.5 rounded ${color}`}>
+  {text}
+</span>

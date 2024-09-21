@@ -25,3 +25,17 @@ export const darkTheme: Theme = {
         text: '#ffffff',
     }
 }
+
+export const lightTheme: Theme = {
+    text: {
+        font: 'monospace',
+        color: '#000000',
+    },
+    colors: {
+        primary: '#ffffff',
+        secondary: '#f0f0f0',
+        siteBackground: '#ffffff',
+        contentBackground: '#f0f0f0',
+        text: '#000000',
+    }
+}
