@@ -1,6 +1,6 @@
 # Jupyter Style - Astro blog
 
-Based on the [Astro Blog Template](https://github.com/withastro/astro/tree/main/examples/blog)
+Based on the [Astro Blog Template](https://github.com/withastro/astro/tree/main/examples/blog). [View the Template Here](https://jupyter-style-astro-blog.netlify.app/)
 
 Added Libraries:
 - [React](https://reactjs.org/)
